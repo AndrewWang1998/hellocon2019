@@ -1,32 +1,173 @@
+.preventScroll{
+  overflow-y: hidden;
+}
+
+#home{
+  background-color: rgba(91, 199, 255, 1);
+}
+
+#intro{
+  background-color: rgba(91, 199, 255, 1); 
+  overflow-x: hidden;
+}
+
+#speakers{
+  background-color: rgba(91, 199, 255, 1);
+}
+
+/*#B6FBB6*/
+#signups{
+  background-color: rgba(91, 199, 255, 1);
+}
+
+#sponsors{
+  background-image: linear-gradient(rgba(91, 199, 255, 1),rgb(166, 224, 253), white);
+}
+
+#footer{
+  position: relative;
+  font-family: "Niramit";
+  top: 35vh;
+  height: 60px;
+  text-align: center;
+  font-size: 15px;
+  background-color: rgba(155, 155, 155, 0);
+}
+
 .App {
   text-align: center;
+  cursor: default;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+::-webkit-scrollbar {
+  width: 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.fade{
+  background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),
+   rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.05),
+   rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
+  position: fixed;
+  width: 100%;
+}
+
+.lblue{
+  background-color: rgba(91, 199, 255,1);
+}
+
+.divider {
+  height: 30vh;
+}
+
+.dividerSmall{
+  height: 10vh;
+  background-color: rgba(91, 199, 255, 1);
+}
+
+.page {
+  height: 100vh;
+}
+
+.halfpage{
+  height: 50vh;
+}
+
+.threeqpage {
+  height: 75vh;
+  background-color:white;
+}
+
+.navBarPos {
+  position: fixed;
+  left: calc(1.5vmin);
+  top: calc(1vmin);
+  z-index: 100;
+}
+
+.navBar{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 60px;
+  z-index: 10;
+}
+
+.buttonRect {
+  display: inline-block;
+  left: calc(1vmin);
+  top: calc(1vmin);
+  padding: calc(1.5vmin);
+  margin: 0 calc(0.5vmin) 0 calc(0.5vmin) ;
+  border-radius: 10%;
+  background-color: rgba(0, 0, 0, 0.03);
+  text-decoration: none;
+  font-family: "Abril Fatface";
+  color: rgba(255, 255, 255, 0.4);
+  
+  font-size: calc(2.1vmin);
+  z-index: 11;
+
+  border: 0px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.hvr-fade {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.9s;
+  transition-duration: 0.7s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+  background-color:rgba(0,0,0,0.25);
   color: white;
+  border-color: rgba(255,255, 255, 0);
 }
 
-.App-link {
-  color: #61dafb;
+.introBackground{
+  height: 38vh;
+  width: 100vw;
+  position: relative;
+  top: 15vh;
+  background-color: rgba(0,0,0,0.1);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.introTitle{
+  font-family: "Work Sans";
+  font-size: 8vmin;
+  position: relative;
+  text-align: center;
+  left: 12.5vw;
+  width: 75vw;
+  background-color: rgb(252, 255, 91);
+  border-radius: 6px;
+}
+
+.introText{
+  font-family: "Roboto Slab";
+  font-size: 2.5vmin;
+  line-height: 3.5vmin;
+  position: relative;
+  left: 15vw;
+  width: 70vw;
+  top: 5vh;
+  /*
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;*/
+}
+
+.sponsorsTitleText{
+  position: absolute;
+  justify-content: left;
+  overflow:hidden;
+  top: 470vh;
+  left: 5vmin;
+  font-family: 'Roboto Condensed';
+  font-size: 7vmin;
+  color: rgba(0, 0, 0, 0.2);
 }

@@ -1,0 +1,103 @@
+
+.signupBackground{
+    width: 100vw;
+    background-color: rgba(0,0,0,0.13);
+    height: 30vw;
+    position: relative;
+    
+    box-shadow:
+    0 0 0 5vw rgba(0, 0, 0, 0.03),
+    0 0 0 10vw rgba(0, 0, 0, 0.03),
+    0 0 0 15vw rgba(0, 0, 0, 0.02),
+    0 0 0 20vw rgba(0, 0, 0, 0.01);
+    top: calc(5vw + 20vh);
+    
+}
+
+.signupButtonAnchor{
+    text-decoration: none;
+}
+
+.signupButton{
+    width: 20vw;
+    height: 18vw;
+    background-color: rgb(255, 147, 91);
+
+    border-radius: 6%;
+    border: 5px solid rgb(255, 144, 91);
+
+
+    position: relative;
+    left: 40vw;
+    top: 3vw;
+
+    text-align: center; 
+    z-index: 20;
+}
+
+.signupButton2{
+    width: 20vw;
+    height: 18vw;
+    background-color: rgb(230, 132, 84);
+
+    border-radius: 6%;
+    border: 5px solid rgb(230, 132, 84);
+
+
+    position: relative;
+    left: 40vw;
+    top: -15vw;
+    z-index: 10;
+
+    text-align: center; 
+}
+
+.signupButtonText{
+    font-family: 'Roboto Condensed';
+    font-size: 3.5vw;
+    text-decoration: none;
+    color: white;
+
+    background-color: none;
+    width: 16vw;
+    height: 6vw;
+    display: block;
+
+    position: relative;
+    top: 4vw;
+    left: 2vw;
+}
+
+.disclaimerText{
+    color: white;
+    font-family: "Roboto Slab";
+    font-size: 1vw;
+    width: 30vw;
+    position: relative;
+    text-align: center;
+    top: -13vw;
+    left: 35vw;
+    line-height: 1.3vw;
+    font-style: italic;
+}
+
+.subText{
+    color: rgba(255,255,255,0.7);
+    font-size: 2vw;
+}
+
+.hvr-grow4 {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition: transform 0.5s, background-color 0.3s ease-in, border 0.3s ease-in;
+    transition: transform 0.5s, background-color 0.3s ease-in, border 0.3s ease-in;
+    }
+.hvr-grow4:hover, .hvr-grow3:focus, .hvr-grow3:active {
+-webkit-transform:translate(0px, -7px);
+transform: translate(0px, -10px);
+background-color: rgb(255, 190, 80);
+border: 5px solid white;
+}

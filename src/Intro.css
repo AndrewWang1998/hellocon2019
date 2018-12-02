@@ -1,0 +1,103 @@
+
+
+.dividerLine{
+    height: 13vw;
+    width: 0.5vw;
+    background-color: white;
+    position: relative;
+    border-radius: 10%;
+    left: 54.7vw;
+    bottom: 19.5vw;
+}
+  
+.introInfoTitle{
+    font-family: "Work Sans";
+    font-size: 5.5vmin;
+    position: relative;
+    color: rgba(0,0,0,1);
+    display: inline-block;
+    top: -4vh;
+    background-color: rgb(252, 255, 91);
+    border-left: 1vw solid rgb(252, 255, 91);
+    border-right: 1vw solid rgb(252, 255, 91);
+    left: 15vw;
+    border-radius: 6px;
+    overflow-y: visible;
+}
+
+.countdownPos{
+    position: relative;
+    top: -2.5vh;
+    left: 15vw;
+}
+
+.locTitle{
+    font-family: "Roboto Condensed";
+    font-size: 3.2vw;
+    font-weight: bolder;
+    color: rgb(80, 175, 223); 
+    text-decoration: none;
+    position: relative;
+    left: 0.5vw;
+    bottom: 0.3vw;
+}
+
+.locTitle2{
+    font-family: "Roboto Condensed";
+    font-size: 3.2vw;
+    font-weight: bolder;
+    color: transparent;
+    text-decoration: none;
+    position: relative;
+    text-decoration: none;
+    outline: none;
+}
+
+.locButton{
+    width: 23vw;
+    height: fit-content;
+    border-radius: 2vw;
+    border: 2vw solid rgb(252, 255, 91);
+    background-color: rgb(252, 255, 91);
+    position: relative;
+    bottom: 29vw;
+    left: 59vw;
+    z-index: 200;
+    text-decoration: none;
+    outline: none;
+}
+
+.locButton2{
+    width: 23vw;
+    height: fit-content;
+    border-radius: 2vw;
+    border: 2vw solid rgb(231, 231, 2);
+    background-color: rgb(231, 231, 2);
+    position: relative;
+    bottom: 36vw;
+    left: 59vw;
+    z-index: 100;
+    outline: none;
+}
+
+.hvr-grow3 {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition: color 1s ease-out;
+    transition: color 1s ease-out;
+    }
+.hvr-grow3:hover, .hvr-grow3:focus, .hvr-grow3:active {
+    color: rgb(0, 0, 0);
+}
+
+.hvr-grow5 {
+    -webkit-transition: transform 0.5s;
+    transition: transform 0.5s;
+    }
+.hvr-grow5:hover, .hvr-grow5:focus, .hvr-grow5:active {
+-webkit-transform: translate(0, -7px);
+transform: translate(0, -7px);
+}

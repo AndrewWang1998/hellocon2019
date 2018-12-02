@@ -1,0 +1,278 @@
+.backButton{
+    position: relative;
+    top: 7vh;
+    left: 80%;
+    z-index: 10;
+}
+  
+.buttonTri1{
+    padding: 0px;
+    border-bottom: 30px solid transparent;  
+    border-top: 30px solid transparent; 
+    border-right: 50px solid rgba(255, 255, 255, 0.5); 
+}
+
+.hvr-grow {
+display: inline-block;
+vertical-align: middle;
+-webkit-transform: perspective(1px) translateZ(0);
+transform: perspective(1px) translateZ(0);
+box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+-webkit-transition-duration: 0.4s;
+transition-duration: 0.4s;
+-webkit-transition-property: transform;
+transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+-webkit-transform: scale(1.2);
+transform: scale(1.2);
+}
+
+.hvr-grow2 {
+display: inline-block;
+vertical-align: middle;
+-webkit-transform: perspective(1px) translateZ(0);
+transform: perspective(1px) translateZ(0);
+box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+-webkit-transition: transform 1s ease-out;
+transition: transform 1s ease-out;
+}
+.hvr-grow2:hover, .hvr-grow2:focus, .hvr-grow2:active {
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
+
+.hvr-fade3 {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.9s;
+    transition-duration: 0.7s;
+    -webkit-transition-property: border-right-color 1s ease-out;
+    transition-property: border-right-color 1s ease-out;
+  }
+  .hvr-fade3:hover, .hvr-fade3:focus, .hvr-fade3:active {
+    border-right-color: rgb(255, 255, 255);
+  }
+
+.speakerImage{
+position: relative;
+height: 12vmin;
+width: 12vmin;
+border-radius: 50%;
+border-style: solid;
+border-color: white;
+border-width: 0.3vmin;
+}
+
+.speakerTitle{
+display: flex; 
+text-align: center;
+
+}
+
+.speakerTitle .speakerTitleName{
+font-family: 'Roboto Condensed';
+font-size: calc(6vmin);
+white-space: nowrap;
+
+/*border-bottom: 2px solid white;
+padding: 1vmin 2vmin 0.7vmin 2vmin;
+margin: 1vmin;*/
+}
+
+.speakerTitle .speakerTitlePosition{
+font-family: "Niramit";
+font-size: 1.8min;
+white-space: nowrap;
+opacity: 50%;
+}
+
+.speakerTitle .speakerTitleCompany{
+font-family: "Niramit";
+font-size: 1.7vmin;
+white-space: nowrap;
+opacity: 50%;
+}
+
+.clickForMore{
+white-space: nowrap;
+font-size: 2vmin;
+font-family: "Roboto Condensed";
+opacity: 80%;
+color: rgba(255, 255, 255, 0.5);
+}
+
+.speakerDetail {
+position: absolute;
+top: 10vh;
+background-color: rgba(0,0,0,0.1);
+height: fit-content;
+padding: 20px 20px 20px 10px;
+color: white;
+}
+
+.speakerDetailName{
+white-space: nowrap;
+font-family: "Roboto Condensed";
+font-size: 4vmin;
+}
+
+.speakerDetailTitle{
+white-space: nowrap;
+font-family: "";
+font-size: 2.5vmin;
+line-height: 3.5vmin;
+/*background-color: white;*/
+font-family: "Roboto Condensed";
+padding: 0px 0px 0px 0px;
+}
+
+.speakerDetailSpan{
+font-family: "Niramit";
+font-size: 2vmin;
+line-height: 2vmin;
+cursor: text;
+}
+
+.circleContainer{
+position: relative;
+margin-left: auto;
+margin-right: 15vw;
+top: 20vh;
+width: 55vmin;
+height: 55vmin;
+
+border-radius: 50%;
+}
+
+.circleContainer a{
+display: block;
+position: absolute;
+top: 50%;
+left: 50%;
+/*height: 100px;
+width: 100px;
+background-color: black;*/
+cursor: pointer;
+z-index: 7;
+}
+
+.circleContainer p{
+display: block;
+position: absolute;
+width: 50vmin;
+top: 45%;
+left: 50%;
+transform:  translate(-50%, -50%);
+color: white;
+}
+
+.listTextPos{
+    position: relative;
+    height: 80vh;
+    width: 38vw;
+    left: -45vw;
+    bottom: 10vh;
+
+}
+
+.listText{
+    display: inline-block;
+    position: relative;
+    height: 1.5vh;
+    width: 35vw;
+
+    color: white;
+    font-size: 1.5vw;
+    font-family: "Roboto Condensed";
+    margin-top: 4vh;
+    margin-left: 1vw;
+    font-weight: 300;
+
+    
+}
+
+.listIcon{
+    display: inline-block;
+    position: relative;
+    top: 1vh;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    margin-top: 2.7vh;
+}
+
+.c1{background-color: rgb(91, 255, 247); border-color: green;}
+.c2{background-color: rgb(91, 255, 154); border-color: yellow;}
+.c3{background-color: rgb(252, 255, 91); border-color: lightseagreen;}
+.c4{background-color: rgb(255, 211, 91); border-color: purple;}
+.c5{background-color: rgb(255, 91, 91); border-color: red;}
+.c6{background-color: rgb(91, 94, 255); border-color: white;}
+.c7{background-color: rgb(203, 91, 255); border-color: black;}
+.c8{background-color: rgb(255, 91, 173); border-color: orange;}
+.c9{background-color: rgb(255, 143, 91); border-color: coral;}
+.c10{background-color: rgb(151, 255, 91); border-color: blue;}
+
+.c1a{
+    box-shadow: 
+    0 0 0 0.5vw rgba(91, 255, 247, 1),
+    0 0 0 0.8vw rgba(91, 255, 247, 0.1),
+    0 0 0 1.1vw rgba(91, 255, 247, 0.1);
+}
+.c2a{
+    box-shadow: 
+    0 0 0 0.5vw rgb(91, 255, 154),
+    0 0 0 0.8vw rgba(91, 255, 154, 0.1),
+    0 0 0 1.1vw rgba(91, 255, 154, 0.1);
+}
+.c3a{
+    box-shadow: 
+    0 0 0 0.5vw rgb(252, 255, 91),
+    0 0 0 0.8vw rgba(252, 255, 91, 0.1),
+    0 0 0 1.1vw rgba(252, 255, 91, 0.1);
+}
+.c4a{
+    box-shadow: 
+    0 0 0 0.5vw rgb(255, 211, 91),
+    0 0 0 0.8vw rgba(255, 211, 91, 0.1),
+    0 0 0 1.1vw rgba(255, 211, 91, 0.1);
+}
+.c5a{
+    box-shadow: 
+    0 0 0 0.5vw rgb(255, 91, 91),
+    0 0 0 0.8vw rgba(255, 91, 91, 0.1),
+    0 0 0 1.1vw rgba(255, 91, 91, 0.1);
+}
+.c6a{
+    box-shadow: 
+    0 0 0 0.5vw rgb(91, 94, 255),
+    0 0 0 0.8vw rgba(91, 94, 255, 0.1),
+    0 0 0 1.1vw rgba(91, 94, 255, 0.1);
+}
+.c7a{
+    box-shadow: 
+    0 0 0 0.5vw rgba(203, 91, 255, 1),
+    0 0 0 0.8vw rgba(203, 91, 255, 0.1),
+    0 0 0 1.1vw rgba(203, 91, 255, 0.1);
+}
+.c8a{
+    box-shadow: 
+    0 0 0 0.5vw rgb(255, 91, 173),
+    0 0 0 0.8vw rgba(255, 91, 173, 0.1),
+    0 0 0 1.1vw rgba(255, 91, 173, 0.1);
+}
+.c9a{
+    box-shadow: 
+    0 0 0 0.5vw rgb(255, 143, 91),
+    0 0 0 0.8vw rgba(255, 143, 91, 0.1),
+    0 0 0 1.1vw rgba(255, 143, 91, 0.1);
+}
+.c10a{
+    box-shadow: 
+    0 0 0 0.5vw rgb(151, 255, 91),
+    0 0 0 0.8vw rgba(151, 255, 91, 0.1),
+    0 0 0 1.1vw rgba(151, 255, 91, 0.1);
+}

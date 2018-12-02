@@ -1,0 +1,67 @@
+.mainPageTyping {
+    position: relative;
+    color: white;
+    font-size: calc(17vmin);
+  }
+
+.mainPageSubtitle1{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    left: 40vw;
+    top: calc(45vh + 4vmin + 8vmin);
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: calc(3vmin);
+    cursor: default;
+}
+
+.mainPageSubtitle2Pos{
+    position: absolute;
+    left: calc(40vw + 16vmin);
+    top: calc(45vh + 3.6vmin + 8vmin);
+    white-space: nowrap;
+    color: rgba(255, 255, 255, 0.3);
+    cursor: default;
+}
+
+.mainPageSubtitle2{
+    font-size: calc(3vmin);
+    line-height: 1vmin;
+}
+
+.t1{
+    font-family: "Righteous";
+}
+.t2{
+    font-family: "Permanent Marker";
+}
+.t3{
+    font-family: "Philospher";
+}
+.t4{
+    font-family: "Abril Fatface";
+}
+.t5{
+    font-family: "Racing Sans One";
+}
+.t6{
+    font-family: "Niramit";
+}
+.t7{
+    font-family: 'Roboto Slab';
+}
+
+.typingPos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    white-space: nowrap;
+    left: 50vw;
+    top: 45vh;
+    transform: translate(-50%, -50%);
+    cursor: default;
+}

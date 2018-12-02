@@ -1,0 +1,63 @@
+
+.countDownPos{
+    position: relative;
+    right: 8vw;
+    width: 60vw;
+    transform: scale(0.75);
+}
+
+.countDownNum{
+    font-family: 'Assistant';
+    font-size: 7.2vw;
+    color: rgb(83, 183, 233);
+    display: inline-block;
+    position: relative;
+    top: vw;
+   
+}
+/*rgb(255, 177, 160)*/
+.countDownText{
+    font-family: 'Assistant';
+    font-size: 3.3vw;
+    color: rgb(80, 175, 223);
+    display: inline-block;
+}
+
+.doneText{
+    font-family: 'Roboto Condensed';
+}
+
+
+.countDownBox{
+    height: 15vw;
+    width: 11vw;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    background-color: white;
+    text-align: center;
+    margin: 0 0.5vw;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    z-index: 3;
+}
+
+.countDownBox2{
+    width: 11vw;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    background-color: transparent;
+    text-align: center;
+    margin: 0 0.5vw;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    bottom: 4.7vw;
+    z-index: 4;
+
+}
+
